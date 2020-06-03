@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+@font-face {
+  font-family: 'BaiJamjuree-Light';
+  src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Light.ttf");
+  format: "true-type";
+}
+
+@font-face {
+  font-family: 'BaiJamjuree-Regular';
+  src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf");
+  format: "true-type"; 
+}
+
+h1, h2, h3, h4 {
+  font-family: 'BaiJamjuree-Regular'; 
+}
+
+h1 {
+  font-size: 2rem; 
+}
+
+p {
+  font-family: 'BaiJamjuree-Regular'; 
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center; 
+}
+
+.attribution a {
+  color: #3e52a3; 
+}
+
+/*# sourceMappingURL=style.css.map */
