@@ -1,22 +1,39 @@
 * {
   margin: 0;
-  padding: 0; 
-}
+  padding: 0; }
 
-@font-face {
-  font-family: 'BaiJamjuree-Light';
-  src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Light.ttf");
-  format: "true-type";
-}
+:root {
+  --color-primary-light: hsl(171, 66%, 44%);
+  --color-primary-dark: hsl(233, 100%, 69%);
+  --color-neutral: hsl(201, 11%, 66%);
+  --color-neutral-dark: hsl(210, 10%, 33%); }
 
+/*
+$bp-largest: 75em;  // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
+*/
 @font-face {
   font-family: 'BaiJamjuree-Regular';
-  src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf");
+  src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Light.ttf");
   format: "true-type"; 
+  }
+
+@font-face {
+  font-family: 'BaiJamjuree-Medium';
+  src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf");
+  format: "true-type"; 
+  }
+
+html {
+  font-size: 18px; 
 }
 
 h1, h2, h3, h4 {
-  font-family: 'BaiJamjuree-Regular'; 
+  font-family: 'BaiJamjuree-Medium';
+  color: #4e4e4e; 
 }
 
 h1 {
@@ -24,7 +41,9 @@ h1 {
 }
 
 p {
-  font-family: 'BaiJamjuree-Regular'; 
+  font-family: 'BaiJamjuree-Regular';
+  color: var(--color-neutral);
+  font-size: .95rem; 
 }
 
 .attribution {
@@ -34,6 +53,77 @@ p {
 
 .attribution a {
   color: #3e52a3; 
+}
+
+/* Container */
+.container {
+  max-width: 120rem;
+  margin: 0 auto; 
+}
+
+/* Header */
+.header {
+  height: 30rem;
+  background-image: url(); 
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem auto;
+  text-align: center; 
+}
+
+.header-paragraph {
+  width: 45%;
+  text-align: center;
+  margin: 1rem auto;
+  line-height: 1.5rem; 
+}
+
+/* Buttons */
+.header-buttons {
+  display: flex;
+  margin: 1rem auto;
+  width: 32%; 
+}
+
+.button-ios {
+  border: none;
+  background-color: var(--color-primary-light);
+  cursor: pointer;
+  font-size: .9rem;
+  margin-right: 1rem;
+  padding: .8rem 1.5rem;
+  width: 100%;
+  display: inline-block;
+  border-radius: 10rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1); 
+}
+
+.button-ios a {
+  font-family: 'BaiJamjuree-Medium';
+  text-decoration: none;
+  color: #fff; 
+}
+
+.button-mac {
+  border: none;
+  background-color: var(--color-primary-dark);
+  cursor: pointer;
+  font-size: .9rem;
+  margin-right: 1rem;
+  padding: .8rem 1.5rem;
+  width: 100%;
+  display: inline-block;
+  border-radius: 10rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1); 
+}
+
+.button-mac a {
+  font-family: 'BaiJamjuree-Medium';
+  text-decoration: none;
+  color: #fff; 
 }
 
 /*# sourceMappingURL=style.css.map */
