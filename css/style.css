@@ -1,31 +1,26 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0; 
+}
 
 :root {
   --color-primary-light: hsl(171, 66%, 44%);
   --color-primary-dark: hsl(233, 100%, 69%);
   --color-neutral: hsl(201, 11%, 66%);
-  --color-neutral-dark: hsl(210, 10%, 33%); }
+  --color-neutral-dark: hsl(210, 10%, 33%); 
+}
 
-/*
-$bp-largest: 75em;  // 1200px
-$bp-large: 68.75em; // 1100px
-$bp-medium: 56.25em; // 900px
-$bp-small: 37.5em; // 600px
-$bp-smallest: 31.25em; // 500px
-*/
 @font-face {
   font-family: 'BaiJamjuree-Regular';
   src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Light.ttf");
   format: "true-type"; 
-  }
+}
 
 @font-face {
   font-family: 'BaiJamjuree-Medium';
   src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf");
-  format: "true-type"; 
-  }
+  format: "true-type";
+}
 
 html {
   font-size: 18px; 
@@ -55,23 +50,31 @@ p {
   color: #3e52a3; 
 }
 
-/* Container */
 .container {
-  max-width: 120rem;
-  margin: 0 auto; 
+  max-width: 120rem; 
 }
 
-/* Header */
 .header {
   height: 30rem;
-  background-image: url(); 
+  background-image: url(../images/bg-header-desktop.png);
+  background-size: cover;
+  background-position: top;
+  position: relative; 
 }
 
 .header-content {
   display: flex;
   flex-direction: column;
-  margin: 10rem auto;
+  margin: 0 auto;
+  padding-top: 10rem;
   text-align: center; 
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header-content h1 {
+    width: 90%;
+    margin: 0 auto; 
+  } 
 }
 
 .header-paragraph {
@@ -81,11 +84,45 @@ p {
   line-height: 1.5rem; 
 }
 
-/* Buttons */
+  @media only screen and (max-width: 31.25em) {
+    .header-paragraph {
+      width: 75%;
+      text-align: 0 auto; 
+  } 
+}
+
 .header-buttons {
   display: flex;
   margin: 1rem auto;
   width: 32%; 
+}
+
+  @media only screen and (max-width: 31.25em) {
+    .header-buttons {
+      width: 80%;
+      flex-direction: column; 
+  } 
+}
+
+.snippet-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem; 
+}
+
+  @media only screen and (max-width: 31.25em) {
+    .snippet-content {
+      width: 75%;
+      margin-top: 7.5rem;
+      margin-bottom: 4rem; 
+  } 
+}
+
+.snippet-content h2 {
+  margin-bottom: 1rem; 
 }
 
 .button-ios {
