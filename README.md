@@ -8,3 +8,4 @@ Clipboard Landing Page
     4. Continued desktop Header, Began Snippet Section 6/4/2020
     5. Added Snippet and Access desktop Sections 6/7/2020
     6. Added more responsive sections 6/9/2020
+    7. Corrected problems with responsive design 6/10/2020
