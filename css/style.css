@@ -21,6 +21,7 @@
   src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf");
   format: "true-type";
 }
+
 html {
   font-size: 18px;
 }
@@ -375,7 +376,7 @@ p {
   flex-direction: column;
   width: 100%;
   text-align: center;
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
 }
 
 .sponsor-section {
@@ -388,8 +389,7 @@ p {
 @media only screen and (max-width: 31.25em) {
   .sponsor-section {
     flex-direction: column;
-    margin: 1rem auto;
-    padding: 5rem;
+    margin: 1rem 3rem;
   }
 }
 
@@ -416,7 +416,7 @@ p {
 
 .call-to-action-content h2 {
   margin-bottom: 1rem;
-  margin-top: 6rem;
+  margin-top: 0;
   font-family: "BaiJamjuree-Medium";
   font-size: 2rem;
   text-align: center;
@@ -465,6 +465,12 @@ footer {
   background-color: #f8f6f6;
 }
 
+@media only screen and (max-width: 31.25em) {
+  footer {
+    height: 27rem;
+  }
+}
+
 .footer-logo {
   width: 100%;
   text-align: center;
@@ -483,12 +489,26 @@ footer {
   margin: 8rem 0 0 10rem;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+    margin: 5rem 0 0 0;
+  }
+}
+
 .footer-links ul {
   margin: 2rem 0 1rem 6rem;
   line-height: 2.5rem;
   letter-spacing: 0.015rem;
   font-family: "BaiJamjuree-Regular";
   list-style-type: none;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .footer-links ul {
+    margin: 0;
+  }
 }
 
 .footer-links a {
@@ -538,6 +558,14 @@ footer {
   font-size: 11px;
   text-align: center;
   margin-top: 4.5rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .attribution {
+    width: 75%;
+    text-align: center;
+    margin: 10rem auto;
+  }
 }
 
 .attribution a {
