@@ -9,3 +9,4 @@ Clipboard Landing Page
     5. Added Snippet and Access desktop Sections 6/7/2020
     6. Added more responsive sections 6/9/2020
     7. Corrected problems with responsive design 6/10/2020
+    8. Designed Footer 6/11/2020
