@@ -79,13 +79,12 @@ p {
 
 .clipboard-logo {
   width: 55%;
-  margin-top: 5%;
+  margin: 0 auto;
 }
 
 .header-content h1 {
   font-size: 2.5rem;
 }
-
 @media only screen and (max-width: 31.25em) {
   .header-content h1 {
     width: 90%;
@@ -459,6 +458,42 @@ p {
   }
 }
 
+footer {
+  height: 10rem;
+  background-color: #f8f6f6;
+}
+
+.footer-logo {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 8%;
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+
+.footer-links {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  margin: 8rem 0 0 10rem;
+}
+
+.footer-links ul {
+  margin: 2rem 0 1rem 6rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.015rem;
+  font-family: "BaiJamjuree-Regular";
+  list-style-type: none;
+}
+
+.footer-links a {
+  color: var(--color-neutral-dark);
+  text-decoration: none;
+}
+
 .button-ios {
   border: none;
   background-color: var(--color-primary-light);
@@ -495,6 +530,16 @@ p {
   font-family: "BaiJamjuree-Medium";
   text-decoration: none;
   color: #fff;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 4.5rem;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 
 /*# sourceMappingURL=style.css.map */
