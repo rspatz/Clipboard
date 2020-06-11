@@ -21,7 +21,6 @@
   src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf");
   format: "true-type";
 }
-
 html {
   font-size: 18px;
 }
@@ -85,6 +84,7 @@ p {
 .header-content h1 {
   font-size: 2.5rem;
 }
+
 @media only screen and (max-width: 31.25em) {
   .header-content h1 {
     width: 90%;
@@ -182,6 +182,7 @@ p {
 @media only screen and (max-width: 31.25em) {
   .snippet-image {
     display: flex;
+    flex-direction: row;
     max-width: 95%;
     margin: 0 auto;
     padding: 2rem;
@@ -274,6 +275,7 @@ p {
 @media only screen and (max-width: 31.25em) {
   .access-image {
     display: flex;
+    flex-direction: row;
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
