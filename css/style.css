@@ -1,170 +1,230 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 :root {
   --color-primary-light: hsl(171, 66%, 44%);
   --color-primary-dark: hsl(233, 100%, 69%);
   --color-neutral: hsl(201, 11%, 66%);
-  --color-neutral-dark: hsl(210, 10%, 33%); }
+  --color-neutral-dark: hsl(210, 10%, 33%);
+}
 
 @font-face {
-  font-family: 'BaiJamjuree-Regular';
+  font-family: "BaiJamjuree-Regular";
   src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Light.ttf");
-  format: "true-type"; }
-@font-face {
-  font-family: 'BaiJamjuree-Medium';
-  src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf");
-  format: "true-type"; }
-html {
-  font-size: 18px; }
+  format: "true-type";
+}
 
-h1, h2 {
-  font-family: 'BaiJamjuree-Medium';
-  color: #4e4e4e; }
+@font-face {
+  font-family: "BaiJamjuree-Medium";
+  src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf");
+  format: "true-type";
+}
+html {
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  font-family: "BaiJamjuree-Medium";
+  color: #4e4e4e;
+}
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
-h3, h4 {
-  font-family: 'BaiJamjuree-Regular';
-  color: #1a1919; }
+h3,
+h4 {
+  font-family: "BaiJamjuree-Regular";
+  color: #1a1919;
+}
 
 p {
-  font-family: 'BaiJamjuree-Regular';
+  font-family: "BaiJamjuree-Regular";
   color: var(--color-neutral);
-  font-size: .95rem; }
+  font-size: 0.95rem;
+}
 
 .attribution {
   font-size: 11px;
-  text-align: center; }
+  text-align: center;
+}
 
 .attribution a {
-  color: #3e52a3; }
+  color: #3e52a3;
+}
 
 .container {
-  max-width: 120rem; }
+  max-width: 90rem;
+}
 
 .header {
   height: 30rem;
   background-image: url(../images/bg-header-desktop.png);
   background-size: cover;
   background-position: top;
-  position: relative; }
+  position: relative;
+}
 
 .header-content {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   padding-top: 10rem;
-  text-align: center; }
+  text-align: center;
+}
 
 .clipboard-logo {
   width: 55%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .header-content h1 {
-  font-size: 2.5rem; }
-  @media only screen and (max-width: 31.25em) {
-    .header-content h1 {
-      width: 90%;
-      margin: 0 auto;
-      font-size: 2rem; } }
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header-content h1 {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+}
 
 .header-paragraph {
   width: 45%;
   text-align: center;
   margin: 1rem auto;
-  line-height: 1.5rem; }
-  @media only screen and (max-width: 31.25em) {
-    .header-paragraph {
-      width: 75%;
-      text-align: 0 auto; } }
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header-paragraph {
+    width: 75%;
+    text-align: 0 auto;
+  }
+}
 
 .buttons {
   display: flex;
   margin: 1rem auto;
-  width: 32%; }
-  @media only screen and (max-width: 31.25em) {
-    .buttons {
-      width: 70%;
-      padding: 1rem;
-      flex-direction: column; } }
+  width: 32%;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .buttons {
+    width: 70%;
+    padding: 1rem;
+    flex-direction: column;
+  }
+}
 
 @media only screen and (max-width: 31.25em) {
   .button-ios {
-    margin: 1rem auto; } }
+    margin: 1rem auto;
+  }
+}
 
 .snippet-section {
-  margin-top: 4rem; }
+  margin-top: 4rem;
+}
 
 .snippet-content {
   flex-direction: column;
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  line-height: 1.5rem; }
-  @media only screen and (max-width: 31.25em) {
-    .snippet-content {
-      flex-direction: column;
-      width: 75%;
-      margin-top: 7.5rem;
-      margin-bottom: 4rem; } }
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .snippet-content {
+    flex-direction: column;
+    width: 75%;
+    margin-top: 7.5rem;
+    margin-bottom: 4rem;
+  }
+}
 
 .snippet-content h2 {
   margin-bottom: 1rem;
-  font-family: 'BaiJamjuree-Medium';
-  font-size: 2rem; }
-  @media only screen and (max-width: 31.25em) {
-    .snippet-content h2 {
-      line-height: 2.5rem;
-      font-size: 1.75rem; } }
+  font-family: "BaiJamjuree-Medium";
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .snippet-content h2 {
+    line-height: 2.5rem;
+    font-size: 1.75rem;
+  }
+}
 
 .snippet-info {
   display: flex;
   margin: 5rem 0;
-  width: 88%; }
-  @media only screen and (max-width: 31.25em) {
-    .snippet-info {
-      flex-direction: column; } }
+  width: 88%;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .snippet-info {
+    flex-direction: column;
+  }
+}
 
 .snippet-image {
   height: auto;
   margin: 0 6rem 5rem -2rem;
-  max-width: 100%; }
-  @media only screen and (max-width: 31.25em) {
-    .snippet-image {
-      display: flex;
-      flex-direction: row;
-      max-width: 60%;
-      margin: 0 auto;
-      padding: 2rem; } }
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .snippet-image {
+    display: flex;
+    flex-direction: row;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+}
 
 .snippet-explain {
   margin: 4rem 0;
-  line-height: 1.8rem; }
+  line-height: 1.8rem;
+}
 
 .snippet-explain h3 {
-  margin-bottom: .25rem;
-  font-size: 1.3rem; }
-  @media only screen and (max-width: 31.25em) {
-    .snippet-explain h3 {
-      width: 80%;
-      text-align: center;
-      margin: 0 0 .5rem 3rem; } }
+  margin-bottom: 0.25rem;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .snippet-explain h3 {
+    width: 80%;
+    text-align: center;
+    margin: 0 0 0.5rem 3rem;
+  }
+}
 
 .snippet-explain p {
   margin-bottom: 2.75rem;
-  font-size: .9rem; }
-  @media only screen and (max-width: 31.25em) {
-    .snippet-explain p {
-      width: 80%;
-      text-align: center;
-      margin: 0 0 2rem 3rem; } }
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .snippet-explain p {
+    width: 80%;
+    text-align: center;
+    margin: 0 0 2rem 3rem;
+  }
+}
 
 @media only screen and (max-width: 31.25em) {
   .snippet-paragraph {
-    line-height: 1.5rem; } }
+    line-height: 1.5rem;
+  }
+}
 
 .access-content {
   display: flex;
@@ -172,104 +232,142 @@ p {
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  line-height: 1.5rem; }
-  @media only screen and (max-width: 31.25em) {
-    .access-content {
-      width: 70%; } }
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .access-content {
+    width: 70%;
+  }
+}
 
 .access-content h2 {
   margin-bottom: 1rem;
-  font-family: 'BaiJamjuree-Medium';
-  font-size: 2rem; }
-  @media only screen and (max-width: 31.25em) {
-    .access-content h2 {
-      text-align: center;
-      margin: 0 0 1rem 2rem;
-      line-height: 2rem;
-      font-size: 1.5rem;
-      width: 75%; } }
+  font-family: "BaiJamjuree-Medium";
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .access-content h2 {
+    text-align: center;
+    margin: 0 0 1rem 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    width: 75%;
+  }
+}
 
 .access-explain {
-  line-height: 1.8rem; }
+  line-height: 1.8rem;
+}
 
 .access-explain p {
   margin-bottom: 5rem;
-  font-size: .95rem; }
+  font-size: 0.95rem;
+}
 
 .access-image {
   height: auto;
   margin: 0 auto;
-  max-width: 70%; }
-  @media only screen and (max-width: 31.25em) {
-    .access-image {
-      display: flex;
-      flex-direction: row;
-      max-width: 60%;
-      margin: 0 auto;
-      padding: 0; } }
+  max-width: 70%;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .access-image {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
 
 .workflow-section {
   height: 25rem;
-  width: 98%;
-  margin: 5rem auto; }
-  @media only screen and (max-width: 31.25em) {
-    .workflow-section {
-      width: 95%; } }
+  width: 90%;
+  margin: 5rem auto;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .workflow-section {
+    width: 95%;
+  }
+}
 
 .blacklist-icon {
   width: 5%;
   margin-top: 5%;
-  margin: .75rem auto; }
-  @media only screen and (max-width: 31.25em) {
-    .blacklist-icon {
-      margin-top: 4rem; } }
+  margin: 2.75rem auto;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .blacklist-icon {
+    margin-top: 2rem;
+  }
+}
 
 .snippet-icon {
   width: 5%;
   margin-top: 5%;
-  margin: 1rem auto; }
+  margin: 3rem auto;
+}
 
 .preview-icon {
   width: 5%;
   margin-top: 5%;
-  margin: 1rem auto; }
+  margin: 3rem auto;
+}
 
 .workflow-content h2 {
   margin-bottom: 1rem;
-  font-family: 'BaiJamjuree-Medium';
+  font-family: "BaiJamjuree-Medium";
   font-size: 2rem;
-  text-align: center; }
-  @media only screen and (max-width: 31.25em) {
-    .workflow-content h2 {
-      font-size: 1.7rem;
-      width: 70%;
-      margin: 2rem 0 1rem 4rem; } }
+  text-align: center;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .workflow-content h2 {
+    font-size: 1.7rem;
+    width: 90%;
+    margin: 2rem 0 1rem 2rem;
+  }
+}
 
 .workflow-content h3 {
-  margin-bottom: .25rem;
-  font-size: 1.3rem; }
-  @media only screen and (max-width: 31.25em) {
-    .workflow-content h3 {
-      font-size: 1.4rem;
-      margin-bottom: 1rem; } }
+  margin-bottom: 0.25rem;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .workflow-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+}
 
 .workflow-content p {
-  margin-bottom: 2rem;
-  font-size: .9rem;
-  text-align: center; }
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 2rem auto;
+  width: 90%;
+}
 
 .workflow-list {
   display: flex;
   flex-direction: row;
   width: 95%;
   line-height: 2.25rem;
-  margin-left: 3rem; }
-  @media only screen and (max-width: 31.25em) {
-    .workflow-list {
-      flex-direction: column;
-      width: 75%;
-      margin: 0 auto;
-      line-height: 1.75rem; } }
+  margin-left: 3rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .workflow-list {
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 1.75rem;
+  }
+}
 
 .list-1,
 .list-2,
@@ -278,155 +376,195 @@ p {
   flex-direction: column;
   width: 100%;
   text-align: center;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
 
 .sponsor-section {
   display: flex;
-  margin: 0 auto;
+  margin: 6rem auto;
   padding: 1rem;
-  width: 80%; }
-  @media only screen and (max-width: 31.25em) {
-    .sponsor-section {
-      flex-direction: column;
-      margin: 1rem 3rem; } }
+  width: 80%;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .sponsor-section {
+    flex-direction: column;
+    margin: 1rem 3rem;
+  }
+}
 
 .google-image,
 .ibm-image,
 .microsoft-image,
 .hp-image,
 .vector-graphics-image {
-  margin-right: 5rem; }
-  @media only screen and (max-width: 31.25em) {
-    .google-image,
-    .ibm-image,
-    .microsoft-image,
-    .hp-image,
-    .vector-graphics-image {
-      margin-bottom: 4rem;
-      height: 2rem;
-      max-width: 100%;
-      text-align: center; } }
+  margin-right: 5rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .google-image,
+  .ibm-image,
+  .microsoft-image,
+  .hp-image,
+  .vector-graphics-image {
+    margin-bottom: 4rem;
+    height: 2rem;
+    max-width: 100%;
+    text-align: center;
+  }
+}
 
 .call-to-action-content h2 {
-  margin-bottom: 1rem;
-  margin-top: 0;
-  font-family: 'BaiJamjuree-Medium';
+  margin: 1rem auto;
+  font-family: "BaiJamjuree-Medium";
   font-size: 2rem;
-  text-align: center; }
-  @media only screen and (max-width: 31.25em) {
-    .call-to-action-content h2 {
-      font-size: 1.7rem;
-      width: 80%; } }
+  text-align: center;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .call-to-action-content h2 {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+}
 
 .call-to-action-content p {
-  margin-bottom: 5rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: center;
   width: 45%;
-  margin: 1rem auto;
-  line-height: 2rem; }
-  @media only screen and (max-width: 31.25em) {
-    .call-to-action-content p {
-      width: 74%;
-      margin: 0 0 0 4rem; } }
+  margin: 0 auto;
+  line-height: 2rem;
+}
+@media only screen and (max-width: 31.25em) {
+  .call-to-action-content p {
+    width: 75%;
+    margin: 0 0 0 4rem;
+  }
+}
 
 .cta-buttons {
   display: flex;
   margin: 1rem auto;
   width: 32%;
-  margin-top: 2rem; }
-  @media only screen and (max-width: 31.25em) {
-    .cta-buttons {
-      width: 80%;
-      flex-direction: column;
-      margin: 2rem 3rem; } }
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 31.25em) {
+  .cta-buttons {
+    width: 80%;
+    flex-direction: column;
+    margin: 2rem 3rem;
+  }
+}
 
 footer {
   height: 10rem;
-  background-color: #f8f6f6; }
-  @media only screen and (max-width: 31.25em) {
-    footer {
-      height: 27rem; } }
+  background-color: #f8f6f6;
+}
+@media only screen and (max-width: 31.25em) {
+  footer {
+    height: 27rem;
+  }
+}
 
 .footer-logo {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+}
 
 .footer-logo img {
   width: 8%;
   margin-top: 10%;
-  margin-bottom: 4%; }
+  margin-bottom: 4%;
+}
 
 .footer-links {
   height: 4rem;
   display: flex;
   flex-direction: row;
-  margin: 8rem 0 0 10rem; }
-  @media only screen and (max-width: 31.25em) {
-    .footer-links {
-      flex-direction: column;
-      text-align: center;
-      margin: 5rem 0 0 0; } }
+  margin: 8rem 0 5rem 10rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+    margin: 5rem 0 10rem 0;
+  }
+}
 
 .footer-links ul {
   margin: 2rem 0 1rem 6rem;
   line-height: 2.5rem;
-  letter-spacing: .015rem;
-  font-family: 'BaiJamjuree-Regular';
-  list-style-type: none; }
-  @media only screen and (max-width: 31.25em) {
-    .footer-links ul {
-      margin: 0; } }
+  letter-spacing: 0.015rem;
+  font-family: "BaiJamjuree-Regular";
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .footer-links ul {
+    margin: 0;
+  }
+}
 
 .footer-links a {
   color: var(--color-neutral-dark);
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .button-ios {
   border: none;
   background-color: var(--color-primary-light);
   cursor: pointer;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-right: 1rem;
-  padding: .8rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   width: 100%;
   display: inline-block;
   border-radius: 10rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
 
 .button-ios a {
-  font-family: 'BaiJamjuree-Medium';
+  font-family: "BaiJamjuree-Medium";
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+}
 
 .button-mac {
   border: none;
   background-color: var(--color-primary-dark);
   cursor: pointer;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-right: 1rem;
-  padding: .8rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   width: 100%;
   display: inline-block;
   border-radius: 10rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
 
 .button-mac a {
-  font-family: 'BaiJamjuree-Medium';
+  font-family: "BaiJamjuree-Medium";
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+}
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 4.5rem; }
-  @media only screen and (max-width: 31.25em) {
-    .attribution {
-      width: 75%;
-      text-align: center;
-      margin: 10rem auto; } }
+  margin-top: 20rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .attribution {
+    width: 30%;
+    text-align: center;
+    margin: 20rem auto;
+  }
+}
 
 .attribution a {
-  color: #3e52a3; }
+  color: #3e52a3;
+}
 
 /*# sourceMappingURL=style.css.map */
