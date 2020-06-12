@@ -21,6 +21,7 @@
   src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf");
   format: "true-type";
 }
+
 html {
   font-size: 18px;
 }
@@ -45,15 +46,6 @@ p {
   font-family: "BaiJamjuree-Regular";
   color: var(--color-neutral);
   font-size: 0.95rem;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
 }
 
 .container {
@@ -128,7 +120,7 @@ p {
 }
 
 .snippet-section {
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 .snippet-content {
@@ -163,7 +155,7 @@ p {
 
 .snippet-info {
   display: flex;
-  margin: 5rem 0;
+  margin: 5rem 0 4rem 0;
   width: 88%;
 }
 
@@ -182,7 +174,6 @@ p {
 @media only screen and (max-width: 31.25em) {
   .snippet-image {
     display: flex;
-    flex-direction: row;
     max-width: 95%;
     margin: 0 auto;
     padding: 2rem;
@@ -190,7 +181,7 @@ p {
 }
 
 .snippet-explain {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.8rem;
 }
 
@@ -275,7 +266,6 @@ p {
 @media only screen and (max-width: 31.25em) {
   .access-image {
     display: flex;
-    flex-direction: row;
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -435,6 +425,7 @@ p {
   margin: 0 auto;
   line-height: 2rem;
 }
+
 @media only screen and (max-width: 31.25em) {
   .call-to-action-content p {
     width: 75%;
@@ -445,12 +436,13 @@ p {
 .cta-buttons {
   display: flex;
   margin: 1rem auto;
-  width: 32%;
+  width: 36%;
   margin-top: 2rem;
 }
+
 @media only screen and (max-width: 31.25em) {
   .cta-buttons {
-    width: 80%;
+    width: 75%;
     flex-direction: column;
     margin: 2rem 3rem;
   }
@@ -460,6 +452,7 @@ footer {
   height: 10rem;
   background-color: #f8f6f6;
 }
+
 @media only screen and (max-width: 31.25em) {
   footer {
     height: 27rem;
