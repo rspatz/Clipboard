@@ -169,13 +169,15 @@ p {
   max-width: 100%;
 }
   
-@media only screen and (max-width: $bp-smallest) {
-        display: flex;        
-        max-width: 95%;
-        margin: 0 auto;
-        padding: 2rem;
+  @media only screen and (max-width: 31.25em) {
+  .snippet-image {
+    display: flex;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
 }
-
+  
 .snippet-explain {
   margin: 2rem 0;
   line-height: 1.8rem;
