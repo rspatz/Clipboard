@@ -173,7 +173,6 @@ p {
 
 @media only screen and (max-width: 31.25em) {
   .snippet-image {
-    display: flex;
     max-width: 95%;
     margin: 0 auto;
     padding: 2rem;
