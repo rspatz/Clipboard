@@ -117,6 +117,7 @@ p {
   .button-ios {
     margin: 1rem auto;
   }
+}
 
 .snippet-section {
   margin-top: 1rem;
@@ -162,14 +163,15 @@ p {
   .snippet-info {
     flex-direction: column;
   }
+}
 
 .snippet-image {
   height: auto;
   margin: 0 6rem 5rem -2rem;
   max-width: 100%;
 }
-  
-  @media only screen and (max-width: 31.25em) {
+
+@media only screen and (max-width: 31.25em) {
   .snippet-image {
     display: flex;
     max-width: 95%;
@@ -177,7 +179,7 @@ p {
     padding: 2rem;
   }
 }
-  
+
 .snippet-explain {
   margin: 2rem 0;
   line-height: 1.8rem;
