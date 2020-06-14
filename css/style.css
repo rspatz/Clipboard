@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0; }
 
-img {
-  max-width: 100%; }
-
 :root {
   --color-primary-light: hsl(171, 66%, 44%);
   --color-primary-dark: hsl(233, 100%, 69%);
@@ -102,6 +99,7 @@ p {
   line-height: 1.5rem; }
   @media only screen and (max-width: 31.25em) {
     .snippet-content {
+      flex-direction: column;
       width: 75%;
       margin-top: 7.5rem;
       margin-bottom: 4rem; } }
