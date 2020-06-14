@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0; }
 
-img {
-  max-width: 100%; }
-
 :root {
   --color-primary-light: hsl(171, 66%, 44%);
   --color-primary-dark: hsl(233, 100%, 69%);
