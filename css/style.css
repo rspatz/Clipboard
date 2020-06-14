@@ -131,7 +131,7 @@ p {
     .snippet-image {
       width: 100%;
       margin: 0 auto;
-      padding: 1.5rem; } }
+      padding: 0; } }
 
 .snippet-explain {
   margin: 2rem 0;
@@ -197,7 +197,7 @@ p {
     .access-image {
       width: 100%;
       margin: 0 auto;
-      padding: 1.5rem; } }
+      padding: 0; } }
 
 .workflow-section {
   height: 25rem;
