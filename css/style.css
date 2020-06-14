@@ -131,7 +131,7 @@ p {
     .snippet-image {
       width: 100%;
       margin: 0 auto;
-      padding: 0; } }
+      padding: 0 0 0 2rem; } }
 
 .snippet-explain {
   margin: 2rem 0;
