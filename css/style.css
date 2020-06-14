@@ -130,6 +130,7 @@ p {
   @media only screen and (max-width: 31.25em) {
     .snippet-image {
       display: flex;
+      flex-direction: row;
       max-width: 100%;
       margin: 0 auto;
       padding: 2rem; } }
@@ -197,6 +198,7 @@ p {
   @media only screen and (max-width: 31.25em) {
     .access-image {
       display: flex;
+      flex-direction: row;
       max-width: 100%;
       margin: 0 auto;
       padding: 0; } }
