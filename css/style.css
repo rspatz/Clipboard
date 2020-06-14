@@ -158,6 +158,47 @@ p {
   .snippet-paragraph {
     line-height: 1.5rem; } }
 
+.access-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem; }
+  @media only screen and (max-width: 31.25em) {
+    .access-content {
+      width: 70%; } }
+
+.access-content h2 {
+  margin-bottom: 1rem;
+  font-family: 'BaiJamjuree-Medium';
+  font-size: 2rem; }
+  @media only screen and (max-width: 31.25em) {
+    .access-content h2 {
+      text-align: center;
+      margin: 0 0 1rem 2rem;
+      line-height: 2rem;
+      font-size: 1.5rem;
+      width: 75%; } }
+
+.access-explain {
+  line-height: 1.8rem; }
+
+.access-explain p {
+  margin-bottom: 5rem;
+  font-size: .95rem; }
+
+.access-image {
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%; }
+  @media only screen and (max-width: 31.25em) {
+    .access-image {
+      display: flex;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0; } }
+
 .button-ios {
   border: none;
   background-color: var(--color-primary-light);
