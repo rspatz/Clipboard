@@ -129,8 +129,8 @@ p {
   max-width: 100%; }
   @media only screen and (max-width: 31.25em) {
     .snippet-image {
-      width: 90%;
-      margin: 0 25%;
+      width: 95%;
+      margin: 0 15%;
       padding: 1rem; } }
 
 .snippet-explain {
@@ -195,8 +195,8 @@ p {
   max-width: 100%; }
   @media only screen and (max-width: 31.25em) {
     .access-image {
-      width: 90%;
-      margin: 0 25%;
+      width: 95%;
+      margin: 0 15%;
       padding: 1rem; } }
 
 .workflow-section {
