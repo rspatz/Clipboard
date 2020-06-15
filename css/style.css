@@ -210,7 +210,7 @@ p {
       width: 95%; } }
 
 .blacklist-icon {
-  width: 5%;
+  width: 15%;
   margin-top: 5%;
   margin: 2.75rem auto; }
   @media only screen and (max-width: 31.25em) {
@@ -218,12 +218,12 @@ p {
       margin-top: 2rem; } }
 
 .snippet-icon {
-  width: 5%;
+  width: 15%;
   margin-top: 5%;
   margin: 3rem auto; }
 
 .preview-icon {
-  width: 5%;
+  width: 15%;
   margin-top: 5%;
   margin: 3rem auto; }
 
