@@ -194,7 +194,7 @@ p {
 .access-image {
   height: auto;
   margin: 0 15%;
-  max-width: 90%; }
+  max-width: 100%; }
   @media only screen and (max-width: 31.25em) {
     .access-image {
       width: 100%;
