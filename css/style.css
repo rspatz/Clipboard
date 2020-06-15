@@ -207,25 +207,29 @@ p {
   margin: 5rem auto; }
   @media only screen and (max-width: 31.25em) {
     .workflow-section {
-      width: 95%; } }
+      width: 90%; } }
 
 .blacklist-icon {
   width: 15%;
   margin-top: 5%;
-  margin: 2.75rem auto; }
+  margin: .75rem auto; }
   @media only screen and (max-width: 31.25em) {
     .blacklist-icon {
-      margin-top: 2rem; } }
+      margin: 2rem 0 2rem 45%; } }
 
 .snippet-icon {
   width: 15%;
-  margin-top: 5%;
-  margin: 3rem auto; }
+  margin: 1rem auto; }
+  @media only screen and (max-width: 31.25em) {
+    .snippet-icon {
+      margin: 2rem 0 2rem 45%; } }
 
 .preview-icon {
   width: 15%;
-  margin-top: 5%;
-  margin: 3rem auto; }
+  margin: 1rem auto; }
+  @media only screen and (max-width: 31.25em) {
+    .preview-icon {
+      margin: 2rem 0 2rem 45%; } }
 
 .workflow-content h2 {
   margin-bottom: 1rem;
@@ -239,12 +243,11 @@ p {
       margin: 2rem 0 1rem 2rem; } }
 
 .workflow-content h3 {
-  margin-bottom: .25rem;
   font-size: 1.3rem; }
   @media only screen and (max-width: 31.25em) {
     .workflow-content h3 {
       font-size: 1.4rem;
-      margin-bottom: 1rem; } }
+      margin-bottom: .25rem; } }
 
 .workflow-content p {
   font-size: .9rem;
@@ -261,7 +264,7 @@ p {
   @media only screen and (max-width: 31.25em) {
     .workflow-list {
       flex-direction: column;
-      width: 75%;
+      width: 91%;
       margin: 0 auto;
       line-height: 1.75rem; } }
 
@@ -290,6 +293,7 @@ p {
 .hp-image,
 .vector-graphics-image {
   margin-right: 5rem;
+  margin-top: 2.5rem;
   max-width: 100%; }
   @media only screen and (max-width: 31.25em) {
     .google-image,
