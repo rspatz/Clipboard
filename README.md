@@ -11,4 +11,4 @@ Clipboard Landing Page
     7. Corrected problems with responsive design 6/10/2020
     8. Designed responsive Footer 6/11/2020
     9. Corrected problem with responsive images 6/14/2020
-   10. Making adjustments to the desktop footer 6/16/2020
+    10. Making adjustments to the desktop footer 6/16/2020
